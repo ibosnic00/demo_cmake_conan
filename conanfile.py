@@ -19,7 +19,7 @@ class UdsServerConan(ConanFile):
         self.run("cd demo_cmake_conan")
 
     def requirements(self):
-        self.requires("protobuf/3.16.0")
+        self.requires("protobuf/3.17.1")
         self.requires("zlib/1.2.13")
 
     def imports(self):
