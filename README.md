@@ -8,7 +8,7 @@
 
 ### Steps to reproduce issue:
 
-- open conanfile.py and on line 22 make sure the version of protobuf is 3.17.1 or newer ```self.requires("protobuf/3.17.1")```
+- open conanfile.py and on line 22 make sure the version of **protobuf** is ***3.17.1 or newer*** ```self.requires("protobuf/3.17.1")```
 - start *build_and_compile.bat* script
   -  ```.\build_and_compile.bat```
 
