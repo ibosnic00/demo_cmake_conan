@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package demo;
+
+message ecu_state {
+  required bool flag1 = 1;
+  required uint32 number2 = 2;
+}
