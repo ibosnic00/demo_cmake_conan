@@ -24,3 +24,5 @@
 ### Steps to have working version:
 
 - open conanfile.py and on line 22 make sure the version of protobuf is 3.16.0 or older ```self.requires("protobuf/3.16.0")```
+  
+- start build_and_compile.bat script ```.\build_and_compile.bat``` or manual steps above
